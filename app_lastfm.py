@@ -2,9 +2,9 @@ import streamlit as st
 import pylast
 import time
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
-load_dotenv()  # Load environment variables from .env file
+#load_dotenv()  # Load environment variables from .env file
 
 API_KEY = os.getenv("LASTFM_API_KEY")
 API_SECRET = os.getenv("LASTFM_API_SECRET")
