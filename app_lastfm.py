@@ -6,6 +6,12 @@ import os
 
 #load_dotenv()  # Load environment variables from .env file
 
+# Initialize session state
+if 'network' not in st.session_state:
+    st.session_state.network = None
+if 'album' not in st.session_state:
+    st.session_state.album = None
+
 API_KEY = os.getenv("LASTFM_API_KEY")
 API_SECRET = os.getenv("LASTFM_API_SECRET")
 
