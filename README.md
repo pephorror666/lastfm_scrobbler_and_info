@@ -1,3 +1,35 @@
+# Last.fm Manual Scrobbler
+
+## Description
+
+Last.fm Manual Scrobbler is a Streamlit web application that allows users to log in to their Last.fm account, retrieve information about records, and manually scrobble those records to their Last.fm profile. This tool is perfect for music enthusiasts who want to add past listening experiences or correct their scrobbling history on Last.fm.
+
+## Features
+
+- **Last.fm Authentication**: Securely log in to your Last.fm account.
+- **Record Search**: Find albums and tracks easily.
+- **Manual Scrobbling**: Add plays to your Last.fm profile manually.
+- **User-friendly Interface**: Built with Streamlit for a smooth user experience.
+
+## Live Demo
+
+You can try out the application live at: [https://lastfmscrobbler.streamlit.app/](https://lastfmscrobbler.streamlit.app/)
+
+## Installation
+
+To run this application locally, follow these steps:
+
+1. Clone the repository:
+git clone https://github.com/yourusername/lastfm-manual-scrobbler.git
+
+2. Navigate to the project directory:
+cd lastfm-manual-scrobbler
+
+3. Install the required dependencies:
+pip install -r requirements.txt
+
+4. Run the Streamlit app:
+streamlit run app.py
 
 ## Usage
 
